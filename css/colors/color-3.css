@@ -1,0 +1,13 @@
+:root {
+  --value-1: 224;
+  --value-2: 230;
+  --main-color: hsl(var(--value-1), 28%, 49%);
+  --btn-hover: hsl(var(--value-1), 57%, 53%);
+  --body-bg-color: hsl(var(--value-1), 63%, 97%);
+  --boder-color: hsl(var(--value-1), 40%, 93%);
+  --shadow: 0 0 10px hsl(var(--value-1), 40%, 90%);
+  --gradient-bg-1: hsla(var(--value-1), 100%, 50%, 0.2);
+  --gradient-bg-2: hsla(var(--value-2), 100%, 50%, 0.2);
+  --decoration-bg-1: hsl(var(--value-1), 100%, 70%);
+  --decoration-bg-2: hsl(var(--value-2), 100%, 70%);
+}

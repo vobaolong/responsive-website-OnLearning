@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" class="js-glass-style" href="css/glass.css">
+  <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+  <title>Onlearning</title>
+
+</head>
+
+<body>
+  <!-- Wrapper Begin -->
+  <div class="main-wrapper">
+    <!-- Header Begin -->
+    <header class="header">
+      <div class="container">
+        <div class="header-main d-flex justify-content-between align-items-center">
+          <div class="header-logo ">
+            <a href="index.html"><span>OnL</span>earning</a>
+          </div>
+
+          <button type="button" class="header-hamburger-btn js-header-menu-toggle">
+            <span></span>
+          </button>
+          <div class="header-backdrop js-header-backdrop"></div>
+          <nav class="header-menu js-header-menu">
+            <button type="button" class="header-close-btn js-header-menu-toggle">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu">
+              <li class="menu-item"><a href="index.html">home</a></li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" class="js-toggle-sub-menu">courses <i class="fas fa-chevron-down"></i></a>
+
+                <ul class="sub-menu js-sub-menu">
+                  <li class="sub-menu-item"><a href="courses.html">courses</a></li>
+                  <li class="sub-menu-item"><a href="courses-detail.html">courses details</a></li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" class="js-toggle-sub-menu">pages<i class="fas fa-chevron-down"></i></a>
+                <ul class="sub-menu js-sub-menu">
+                  <li class="sub-menu-item"><a href="log-in.html">log in</a></li>
+                  <li class="sub-menu-item"><a href="sign-up.html">sing up</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-nav">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">courses</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Courses Section Start -->
+    <section class="courses-section section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="section-title text-center mb-4">
+              <h2 class="title">courses</h2>
+              <p class="sub-title">Find the right courses for you</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <div class="nav nav-tabs border-0 justify-content-center mb-4" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="web-development-tab" data-bs-toggle="tab"
+                  data-bs-target="#web-development" type="button" role="tab" aria-controls="web-development"
+                  aria-selected="true">Web Development</button>
+                <button class="nav-link" id="health-tab" data-bs-toggle="tab" data-bs-target="#health" type="button"
+                  role="tab" aria-controls="health" aria-selected="false">health</button>
+                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music" type="button"
+                  role="tab" aria-controls="music" aria-selected="false">music</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="web-development" role="tabpanel"
+                aria-labelledby="web-development-tab">
+                <div class="row  justify-content-center">
+                  <!-- Courese Item Start -->
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/web-development/1.jpg" alt="">
+                          </div>
+                          <h3 class="title">html css for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">john Doe</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(4.5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="review">(230)</span>
+                          </div>
+                          <div class="price">$ 49</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/web-development/2.jpg" alt="">
+                          </div>
+                          <h3 class="title">NodeJs for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">Bao Long</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(4.5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="review">(120)</span>
+                          </div>
+                          <div class="price">$ 70</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/web-development/3.jpg" alt="">
+                          </div>
+                          <h3 class="title">ReactJs for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">Bao Long</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(4)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </span>
+                            <span class="review">(280)</span>
+                          </div>
+                          <div class="price">$ 79</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/web-development/4.jpg" alt="">
+                          </div>
+                          <h3 class="title">JavaScript for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">Son Dang</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </span>
+                            <span class="review">(90)</span>
+                          </div>
+                          <div class="price">$ 90</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Courese Item End -->
+                </div>
+              </div>
+              <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="health-tab">
+                <div class="row  justify-content-center">
+                  <!-- Courese Item Start -->
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/health/1.jpg" alt="">
+                          </div>
+                          <h3 class="title">html css for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">john Doe</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(4.5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="review">(230)</span>
+                          </div>
+                          <div class="price">$ 49</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/health/2.jpg" alt="">
+                          </div>
+                          <h3 class="title">JavaScript for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">Son Dang</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </span>
+                            <span class="review">(90)</span>
+                          </div>
+                          <div class="price">$ 90</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Courese Item End -->
+                </div>
+              </div>
+              <div class="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab">
+                <div class="row  justify-content-center">
+                  <!-- Courese Item Start -->
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/music/1.jpg" alt="">
+                          </div>
+                          <h3 class="title">html css for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">john Doe</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(4.5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="review">(230)</span>
+                          </div>
+                          <div class="price">$ 49</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="courses-item">
+                      <a href="courses-detail.html" class="link">
+                        <div class="courses-item-inner">
+                          <div class="img-box">
+                            <img src="./img/courses/music/2.jpg" alt="">
+                          </div>
+                          <h3 class="title">NodeJs for beginner</h3>
+                          <div class="instructor">
+                            <img src="./img/instructor/1.png" alt="">
+                            <span class="instructor-name">Bao Long</span>
+                          </div>
+                          <div class="rating">
+                            <span class="average-rating">(4.5)</span>
+                            <span class="average-stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                            </span>
+                            <span class="review">(120)</span>
+                          </div>
+                          <div class="price">$ 70</div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Courese Item End -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Pagination Start -->
+            <nav aria-label="Page navigation">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item disable"><a class="page-link" href="#">...</a></li>
+                <li class="page-item"><a class="page-link" href="#">10</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Pagination End -->
+          </div>
+        </div>
+    </section>
+    <!-- Courses Section End -->
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3 class="footer-logo"><span>ONL</span>earning</h3>
+                <ul>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">what the offer</a></li>
+                  <li><a href="#">careers</a></li>
+                  <li><a href="#">certificates</a></li>
+                  <li><a href="#">blog</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3>Learning</h3>
+                <ul>
+                  <li><a href="#">get the app</a></li>
+                  <li><a href="#">testimonials</a></li>
+                  <li><a href="#">pricing</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3>more</h3>
+                <ul>
+                  <li><a href="#">affiliates</a></li>
+                  <li><a href="#">become a course create</a></li>
+                  <li><a href="#">training webinars</a></li>
+                  <li><a href="#">free personality test</a></li>
+                  <li><a href="#">help and support</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+              <div class="footer-item">
+                <h3>get in touch</h3>
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f social-icon"></i> facebook</a></li>
+                  <li><a href="#"><i class="fab fa-twitter social-icon"></i> twitter</a></li>
+                  <li><a href="#"><i class="fab fa-youtube social-icon"></i> youtube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="m-0 py-4 text-center">Copyright &copy; 2022 The Onlearning</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </div>
+  <!-- Wrapper End -->
+
+  <!-- Switcher Start -->
+  <div class="style-switcher js-style-switcher">
+    <div class="style-switcher-toggler js-style-switcher-toggler">
+      <i class="fas fa-cog"></i>
+    </div>
+    <h3>Style Switcher</h3>
+    <div class="style-switcher-item">
+      <!-- theme -->
+      <div class="theme-color js-theme-color">
+        <button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+        <button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+        <button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+      </div>
+    </div>
+    <div class="style-switcher-item">
+      <div class="form-check form-switch">
+        <input class="form-check-input js-dark-mode" type="checkbox" role="switch" id="dark-mode">
+        <label class="form-check-label" for="dark-mode">Dark Mode</label>
+      </div>
+    </div>
+
+  </div>
+  <!-- Switcher End -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
