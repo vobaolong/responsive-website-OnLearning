@@ -199,6 +199,10 @@
     width: 100px;
   }
 
+  .courses-instructor .details-wrap {
+    margin-bottom: 15px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -227,6 +231,61 @@
   .section-title .sub-title {
     font-size: 22px;
   }
+
+  .courses-header h2 {
+    font-size: 24px;
+  }
+
+  .courses-curriculum .accordion-button span {
+    right: auto;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .courses-curriculum .accordion-button {
+    padding-right: 15px;
+  }
+
+  .courses-curriculum ul li {
+    padding: 0 0 0 20px;
+  }
+
+  .courses-curriculum ul li span {
+    font-size: 12px;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .rating-box {
+    margin-bottom: 15px;
+  }
+
+  .rating-summary {
+    margin-bottom: 15px;
+  }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+  .circular-img {
+    max-width: 230px;
+  }
+
+  .circular-img img {
+    max-width: 200px;
+  }
+
+  .footer-item {
+    text-align: center;
+  }
+
+  .header-logo a {
+    font-size: 22px;
+  }
+
+  .modal-dialog {
+    margin: 8px;
+  }
+}
