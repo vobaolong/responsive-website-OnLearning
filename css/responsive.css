@@ -195,6 +195,10 @@
     margin-top: 30px;
   }
 
+  .courses-instructor .img-box img {
+    width: 100px;
+  }
+
 }
 
 @media (max-width: 767px) {}
