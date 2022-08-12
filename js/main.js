@@ -11,18 +11,20 @@ function testimonial() {
 }
 testimonial()
 
-
 // courses preview videos
 function coursesPreview() {
   const coursesPreviewModal = document.querySelector(".js-course-preview-modal")
+
   if (coursesPreviewModal) {
-    coursesPreviewModal.addEventListener("shown.bs.modal", function () {
-      this.querySelector(".js-course-preview-video").play()
-      this.querySelector(".js-course-preview-video").currentTime = 0
-    })
-    coursesPreviewModal.addEventListener("hidden.bs.modal", function () {
-      this.querySelector(".js-course-preview-video").pause()
-    });
+    coursesPreviewModal.addEventListener("shown.bs.modal",
+      function () {
+        this.querySelector(".js-course-preview-video").play()
+        this.querySelector(".js-course-preview-video").currentTime = 0
+      })
+    coursesPreviewModal.addEventListener("hidden.bs.modal",
+      function () {
+        this.querySelector(".js-course-preview-video").pause()
+      });
   }
 }
 coursesPreview()
@@ -38,6 +40,7 @@ function headerMenu() {
     backdrop.classList.toggle("active")
     document.body.classList.toggle("overflow-hidden")
   }
+
   document.querySelectorAll(".js-header-menu-toggle").forEach((item) => {
     item.addEventListener("click", toggleMenu)
   })
